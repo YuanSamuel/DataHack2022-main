@@ -365,7 +365,7 @@ export default function MainBody() {
                     </Modal>
                 </Popover>
             </HeadlineComparisonContainer>
-            <SemanticSimilarity>Semantic similarity calculated using Dandelion.edu: <span style={{fontWeight: "bold", color: parseInt(articleSelected.similarity) <= 40 ? "#FA6262" : "#a5a58d"}}>{articleSelected.similarity}</span></SemanticSimilarity>
+            <SemanticSimilarity>Semantic similarity calculated using Dandelion.eu: <span style={{fontWeight: "bold", color: parseInt(articleSelected.similarity) <= 40 ? "#FA6262" : "#a5a58d"}}>{articleSelected.similarity}</span></SemanticSimilarity>
         </Wrapper>
     )
 }
